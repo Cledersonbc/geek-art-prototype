@@ -169,6 +169,20 @@ section .row .card {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.carousel .carousel-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carosel-description {
+    background-color: rgba(0, 0, 0, 0.199);
+    width: max-content;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px #333;
+}
+
 .carousel .carousel-item p,
 .carousel .carousel-item h2 {
     margin-left: 15px;
