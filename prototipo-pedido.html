@@ -670,7 +670,7 @@
       <script type="text/javascript" >
         $(document).ready(function(){
           $('.dropdown-trigger').dropdown();
-          $('.sidenav').sidenav();
+          $('.sidenav').sidenav({edge: 'right'});
           $('.toggle-favorite').click((e) => {
             const icon = $(e.target);
             if (icon.text() === 'favorite') {
