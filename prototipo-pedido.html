@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <!-- Compiled and minified CSS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Geek Style -->
+        <link type="text/css" rel="stylesheet" href="css/geekstyle.css">
+            
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="UTF-8" />
+      <title>GeekArt - Produto</title>
+    </head>
+
+    <header class="blue lighten-1">
+      <div class="row header-container">
+        <div class="col l4 s12">
+          <div class="geek-logo-header"><a href="prototipo-vitrine.html"><img src="./imgs/logo/logo geek art.png"></a></div>
+        </div>
+        <div class="input-field col l5 s12">
+          <div class="row">
+            <div class="col l10 s9">
+              <br>
+              <input placeholder="Busque por produtos aqui..." id="main-search" type="text" class="white grey-text" title="Busque por produtos aqui...">
+              <p class="white-text center header-description">Encontre o melhor do universo Geek, aqui ;)</p>
+            </div>
+            <div class="col l2 s3">
+              <br>
+              <a class="waves-effect waves-light btn-large blue darken-2" title="Pesquise por produtos"><i class="large material-icons center">search</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col l3 s5"></div>
+      </div>
+      <nav>
+        <div class="nav-wrapper blue darken-1">
+          <a href="#" data-target="mobile-navbar" class="sidenav-trigger right waves-effect"><i class="material-icons">menu</i></a>
+          <a href="#" data-target="mobile-navbar" class="right hide-on-large-only waves-effect"><i class="material-icons">settings_input_antenna</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li title="Anunciar"><a href="#!"><i class="material-icons left">settings_input_antenna</i>Anunciar</a></li>
+            <li title="Meu Perfil"><a href="#!" class="dropdown-trigger" data-target="profile-menu"><i class="material-icons left">person</i>Perfil</a></li>
+            <ul id='profile-menu' class='dropdown-content'>
+              <li><a href="#!" class="blue-text"><i class="material-icons left">person</i>Perfil</a></li>
+              <li class="divider" tabindex="-1"></li>
+              <li><a href="#!" class="blue-text">Compras</a></li>
+              <li><a href="#!" class="blue-text">Lista de desejos</a></li>
+              <li><a href="#!" class="blue-text">Configurações</a></li>
+              <li><a href="#!" class="blue-text"><i class="material-icons">logout</i>Sair</a></li>
+            </ul>
+            <li title="Notificações"><a href="#!"><i class="material-icons">notifications</i></a></li>
+            <li title="Minhas compras"><a href="#!"><i class="material-icons">add_shopping_cart</i></a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-navbar">
+        <li><a href="#!" class="blue-text"><i class="material-icons left">person</i>Perfil</a></li>
+        <li title="Minhas compras"><a href="#!" class="blue-text"><i class="material-icons">add_shopping_cart</i>Meu carrinho</a></li>
+        <li title="Notificações"><a href="#!" class="blue-text"><i class="material-icons">notifications</i>Notificações</a></li>
+        <li class="divider" tabindex="-1"></li>
+        <li><a href="#!" class="blue-text">Compras</a></li>
+        <li><a href="#!" class="blue-text">Lista de desejos</a></li>
+        <li><a href="#!" class="blue-text">Configurações</a></li>
+        <li><a href="#!" class="blue-text"><i class="material-icons">logout</i>Sair</a></li>
+      </ul>
+    </header>
+
+    <section>
+
+      
+      <div class="row">
+        <div class="col s12 m10 offset-m1">
+          <div class="card white darken-1">
+            <div class="card-content">
+              
+
+              <div class="row">
+                <div class="col s12 xl9">
+                  <div class="card white">
+                    <div class="card-content">
+                      <span class="card-title"><b>Caneca Personalizada do Star Wars</b> <i class="material-icons Medium toggle-favorite right blue-text" title="Favoritar">favorite_border</i></span>
+
+                      <div class="carousel carousel-slider center product-carousel">
+                        <div class="carousel-item" style="background-image: url('imgs/products/details/001/slide-1.png');" href="#one!">
+                          <h2 class="left-align black-grey-text darken-4">Produto Exclusivo</h2>
+                          <p class="left-align black-grey-text darken-4">Encomende esta caneca com seu nome!</p>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('imgs/products/details/001/slide-2.png');"  href="#two!">
+                          <h2 class="left-align indigo-text darken-4">Personalizado</h2>
+                          <p class="left-align indigo-text darken-4">Escolha as cores<br> de sua preferência</p>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('imgs/products/details/001/slide-3.png');" href="#three!">
+                          <h2 class="left-align white-text darken-4">Feito por artistas</h2>
+                          <p class="left-align white-text darken-4">Você pode escolher uma arte diferente<br> relacionada com o tema, também!</p>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('imgs/products/details/001/slide-4.png');" href="#three!">
+                          <h2 class="left-align darken-4">Solicite sua arte</h2>
+                          <p class="left-align darken-4">Você também pode enviar sua arte ou rascunho!</p>
+                        </div>
+                      </div>
+                      <br>
+                      <p>Caneca de cerâmica, personalizada, feita sob encomenda para você!</p>
+                      <br>
+                      <h5>Características</h5>
+                      <table class="centered highlight">        
+                        <tbody>
+                          <tr>
+                            <th>Artista</th>
+                            <td>João Santos</td>
+                          </tr>
+                          <tr>
+                            <th>Modelo</th>
+                            <td>Star Geek</td>
+                          </tr>
+                          <tr>
+                            <th>Formato de venda</th>
+                            <td>unidade</td>
+                          </tr>
+                          <tr>
+                            <th>Material</th>
+                            <td>cerâmica</td>
+                          </tr>
+                          <tr>
+                            <th>Capacidade em volume</th>
+                            <td>325 mL</td>
+                          </tr>
+                          <tr>
+                            <th>Dimensões</th>
+                            <td>11,2 cm x 9,5 cm x 8,0 cm</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <p><b>Garantia do artista</b>: 30 dias.</p>
+                      <p><b>Devolução</b>: você tem 30 dias a partir do recebimento do produto para devolvê-lo. <a href="#!" title="Leia mais aqui sobre devoluções">Leia mais aqui sobre devoluções</a>.</p>
+                      <br>
+                      <hr>
+                      <br>
+                      <div class="row water-blue lighten-4">
+                        <div class="col"><h5>Personalização</h5></div>
+                        <form class="col s12">
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <textarea id="product-details" maxlength="1000" class="materialize-textarea black-grey-text darken-1" placeholder="Detalhe aqui o que você gostaria de personalização neste pedido." title="Detalhe o Pedido"></textarea>
+                              <label for="product-details" class="black-grey-text darken-3">Detalhe o Pedido</label>
+                            </div>
+                          </div>
+                          <div class="file-field input-field">
+                            <div class="btn blue lighten-1 waves-effect">
+                              <span>Arquivo</span>
+                              <input id="file-product-example-multiple" type="file" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx, .odt, .odf, .ppt, .pptx, .ods" multiple>
+                            </div>
+                            <div class="file-path-wrapper">
+                              <input id="file-product-example" class="file-path validate" type="text" title="Anexe um exemplo em imagem ou documento" placeholder="Anexe um exemplo em imagem ou documento (max. 10 MB)">
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="product-sidebar" class="col s12 xl3">
+                  <div class="card white darken-1">
+                    <div class="card-content">
+                      <span class="card-title">OFERTA EXPIRA EM:</span>
+                      <div id="clockdiv" class="row white-text center">
+                        <div class="blue lighten-1 col m3 s3">
+                          <h3 class="days blue darken-1 flow-text"></h3>
+                          <div class="smalltext">Dias</div>
+                        </div>
+                        <div class="blue lighten-1 col m3 s3">
+                          <h3 class="hours blue darken-1 flow-text"></h3>
+                          <div class="smalltext">Horas</div>
+                        </div>
+                        <div class="blue lighten-1 col m3 s3">
+                          <h3 class="minutes blue darken-1 flow-text"></h3>
+                          <div class="smalltext">Min.</div>
+                        </div>
+                        <div class="blue lighten-1 col m3 s3">
+                          <h3 class="seconds blue darken-1 flow-text"></h3>
+                          <div class="smalltext">Seg.</div>
+                        </div>
+                      </div>
+                      <h5>De R$ 35,29 por</h5>
+                      <h3 class="blue-text darken-1">R$ 23,90</h3>
+                      <p>em <span class="blue-text darken-1">10x R$ 2,40</span> sem juros</p>
+                      <br>
+                      <p>
+                        <a class="waves-effect waves-light green darken-2 btn-large" title="Comprar"><i class="material-icons left">shopping_cart</i>comprar</a>
+                        <a class="waves-effect waves-light green lighten-4 btn-large" title="Adicionar ao carrinho" onclick="M.toast({html: 'Item adicionado ao carrinho.', classes: 'blue-grey darken-2 white-text'})"><i class="material-icons green-text darken-4">add_shopping_cart</i></a>
+                      </p>
+                      <br>
+                      <p><b>15% de desconto</b> no Pix ou Boleto</p>
+                      <p><b>10% de desconto</b> em 1x no cartão</p>
+                    </div>
+                    <div class="card-action">
+                      <h5>Meios de pagamento</h5>
+                      <br>
+                      <div>
+                        <div class="row">
+                          <div class="row">
+                            <div class="col l4 s4 center">
+                              Pix<br>
+                              <img src="imgs/payment/band_pix.png" alt="Pix" title="Pix">
+                            </div>
+                            <div class="col l4 s4">
+                              Boleto<br>
+                              <img src="imgs/payment/band_boleto.png" alt="Boleto" title="Boleto">
+                            </div>
+                            <div class="col l4 s4">
+                              C. Eletrônica<br>
+                              <img src="imgs/payment/band_paypal.png" alt="Carteira Eletrônica" title="Carteira Eletrônica">
+                            </div>
+                          </div>
+                          <div class="center">Crédito</div>
+                          <div class="row center">
+                            <img src="imgs/payment/band_visa.png" alt="Visa" title="Visa">
+                            <img src="imgs/payment/band_master.png" alt="Master Card" title="Master Card">
+                            <img src="imgs/payment/band_american.png" alt="American Express" title="American Express">
+                            <img src="imgs/payment/band_diners.png" alt="Diners Club International" title="Diners Club International">
+                            <img src="imgs/payment/band_elo.png" alt="Elo" title="Elo">
+                            <img src="imgs/payment/band_hiper.png" alt="Hipercard" title="Hipercard">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <h5>Logística</h5>
+                      <p>Localização:</p>
+                      <p class="grey-text darken-4" title="Localizado em São Paulo, SP"><i class="material-icons tiny">location_on</i>São Paulo, SP</p>
+                      <br>
+                      <p>Calcular frete:</p>
+                      <div class="row">
+                        <div class="input-field col m7 s7">
+                          <input placeholder="00000-000" id="cep-id" type="text" class="validate cep" title="Insira seu CEP">
+                          <label class="active" for="cep-id">CEP</label>
+                        </div>
+                        <div class="input-field col m2 s2">
+                          <a class="waves-effect waves-light btn blue" title="Calcular">calcular</a>
+                        </div>
+                      </div>
+                      <a href="#!" class="blue-text" style="text-transform: none;" title="Denunciar este anúncio">Denunciar anúncio</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="card col m9 s12">
+                  <div class="row">
+
+                    <ul id="faq-rate" class="tabs">
+                      <li class="tab col m6 s6"><a href="#questions" title="Perguntas"><b>Perguntas</b></a></li>
+                      <li class="tab col m6 s6"><a class="active" href="#rate" title="Avaliações"><b>Avaliações</b></a></li>
+                    </ul>
+                    <div id="questions" class="col m12 s12">
+                      <div class="col s12 m12">
+                        <h5>Perguntas</h5>
+                        <p class="black-grey-text">Deixe uma pergunta ao vendedor e tire dúvidas sobre o pedido.</p>
+                        <br>
+                        <br>
+                        <div class="row comments">
+                          <div class="col s1 m1">
+                            <img src="imgs/comments/profile.jpg">
+                          </div>
+                          <div class="col s11 m11">
+                            <p class="black-grey-text" title="22/01/2021"><b>Matheus Silva</b> 22/01/2021</p>
+                            <p class="black-grey-text grey lighten-3 comment">Gostei muito!! Pedi uma caneca personalizada p minha namorada, com o nome dela e td mais. Ficou top!!</p>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row comments">
+                          <div class="col s1 m1">
+                            <img src="imgs/comments/profile.jpg">
+                          </div>
+                          <div class="col s11 m11">
+                            <p class="black-grey-text" title="03/02/2021"><b>Luan02323</b> 03/02/2021</p>
+                            <p class="black-grey-text grey lighten-3 comment">Vcs fazem o desenho dentro do copo tb?</p>
+                            <br>
+                            <div>
+                              <div class="row comments">
+                                <div class="col s1 m1">
+                                  <img src="imgs/comments/autor.png">
+                                </div>
+                                <div class="col s11 m11">
+                                  <p class="blue-text" title="03/02/2021"><b>João Santos</b> <span class="black-grey-text">03/02/2021</span></p>
+                                  <p class="black-grey-text blue lighten-5 comment">Oi Luan, bem-vindo! Tudo bem? Faço sim!</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <br>
+                        <div class="row comments">
+                          <div class="col s1 m1">
+                            <img src="imgs/comments/profile.jpg">
+                          </div>
+                          <div class="col s11 m11">
+                            <p class="black-grey-text">(você)</p>
+                            <div class="row">
+                              <div class="input-field col s12">
+                                <textarea id="question" class="materialize-textarea" placeholder="Escreva sua pergunta..." title="Escreva sua pergunta"></textarea>
+                                <label for="question">Pergunta</label>
+                                <a class="waves-effect waves-light btn blue right" title="Perguntar">Perguntar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="rate" class="col m12 s12">
+                      <div class="col s12 m12">
+                        <h5>Avaliações</h5>
+                        <p class="black-grey-text">Deixe a sua avaliação para este trabalho realizado pelo artista.</p>
+                        <div>
+                          <h1 class="center">4,8</h1>
+                          <p class="center blue-text no-select">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                          </p>
+                          <p class="center black-grey-text">Média com base em 17 avaliações</p>
+                          <br>
+                          <div class="center">
+                            <div class="row">
+                              <div class="col m2 s2">5 estrelas</div>
+                              <div class="col m6 s8">
+                                <div class="progress grey lighten-2">
+                                  <div class="determinate blue" style="width: 83%"></div>
+                                </div>
+                              </div>
+                              <div class="col m2 s2">14</div>
+                            </div>
+                            <div class="row">
+                              <div class="col m2 s2">4 estrelas</div>
+                              <div class="col m6 s8">
+                                <div class="progress grey lighten-2">
+                                  <div class="determinate blue" style="width: 18%"></div>
+                                </div>
+                              </div>
+                              <div class="col m2 s2">2</div>
+                            </div>
+                            <div class="row">
+                              <div class="col m2 s2">3 estrelas</div>
+                              <div class="col m6 s8">
+                                <div class="progress grey lighten-2">
+                                  <div class="determinate blue" style="width: 6%"></div>
+                                </div>
+                              </div>
+                              <div class="col m2 s2">1</div>
+                            </div>
+                            <div class="row">
+                              <div class="col m2 s2">2 estrelas</div>
+                              <div class="col m6 s8">
+                                <div class="progress grey lighten-2">
+                                  <div class="determinate blue" style="width: 0"></div>
+                                </div>
+                              </div>
+                              <div class="col m2 s2">0</div>
+                            </div>
+                            <div class="row">
+                              <div class="col m2 s2">1 estrelas</div>
+                              <div class="col m6 s8">
+                                <div class="progress grey lighten-2">
+                                  <div class="determinate blue" style="width: 0"></div>
+                                </div>
+                              </div>
+                              <div class="col m2 s2">0</div>
+                            </div>
+                          </div>
+
+                          <div class="input-field col s12">
+                            <select>
+                              <option value="1" selected>Todas</option>
+                              <option value="2">Positivas</option>
+                              <option value="3">Negativas</option>
+                            </select>
+                            <label>Tipo de Avaliação</label>
+                          </div>
+                          <div>
+                            <br>
+                          </div>
+                          <div class="row rate-comments">
+                            <div class="col s1 m1 rate-picture">
+                              <img src="imgs/comments/profile.jpg">
+                            </div>
+                            <div class="col s11 m11">
+                              <p class="blue-text"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i></p>
+                              <p><b class="black-grey-text">Fizeram conforme especifiquei</b></p>
+                              <div class="row">
+                                <div class="col m10 s10">
+                                  <p class="black-grey-text grey lighten-3 comment">Realmente fizeram um bom trabalho, pois mandei rascunhos de como gostaria que fosse feita a personalização, as cores, o desenho etc. e mandaram muito bem!!!</p>
+                                </div>
+                                <div class="col m2 s2">
+                                  <img class="modal-trigger product-art hoverable pointer" src="imgs/comments/product-001-art-001.png" href="#modal-product-001-art-001">
+                                  <div id="modal-product-001-art-001" class="modal">
+                                    <div class="modal-content">
+                                      <img src="imgs/comments/product-001-art-001.png">
+                                    </div>
+                                    <div class="modal-footer">
+                                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row rate-comments">
+                            <div class="col s1 m1 rate-picture">
+                              <img src="imgs/comments/profile.jpg">
+                            </div>
+                            <div class="col s11 m11">
+                              <p class="blue-text"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i></p>
+                              <p><b class="black-grey-text">Amei</b></p>
+                              <div class="row">
+                                <div class="col m10 s10">
+                                  <p class="black-grey-text grey lighten-3 comment">Adorei o trabalho, encomendei um p minha amiga. Ela achou linda, só que o nome dela tá um pouco escondido rs.</p>
+                                </div>
+                                <div class="col m2 s2">
+                                  <img class="modal-trigger product-art hoverable pointer" src="imgs/comments/product-001-art-002.png" href="#modal-product-001-art-002">
+                                  <div id="modal-product-001-art-002" class="modal">
+                                    <div class="modal-content">
+                                      <img src="imgs/comments/product-001-art-002.png">
+                                    </div>
+                                    <div class="modal-footer">
+                                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <p class="center"><a href="#!" title="Carregar mais avaliações">Ver mais avaliações</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="card col m9 s12">
+                  <h5>Produtos deste artista</h5>
+                  <br>
+                  <div class="col s12 m6 l3">
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./imgs/products/product-003.png">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Caneca do God of War 4<i class="material-icons right">more_vert</i></span>
+                        <p class="card-price"><a href="#">R$ 42,99</a><i class="material-icons Medium right toggle-favorite" title="Favoritar">favorite_border</i></p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Caneca do God of War 4<i class="material-icons right">close</i></span>
+                        <p>Caneca produzida pelo artista João Pedro, com o tema God of War.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m6 l3">
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./imgs/products/product-004.png">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mousepad RGB Personalizado<i class="material-icons right">more_vert</i></span>
+                        <p class="card-price"><a>R$ 25,99</a><i class="material-icons Medium right toggle-favorite" title="Favoritar">favorite_border</i></p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mousepad RGB Personalizado<i class="material-icons right">close</i></span>
+                        <p>Mousepad personalizado com seu nome e uma arte especial desenhada para você!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m6 l3">
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./imgs/products/product-005.png">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Quadro Gamer Personalizado<i class="material-icons right">more_vert</i></span>
+                        <p class="card-price"><a>R$ 27,30</a><i class="material-icons Medium right toggle-favorite" title="Favoritar">favorite_border</i></p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Quadro Gamer Personalizado<i class="material-icons right">close</i></span>
+                        <p>Quadro gamer personalizado com seu nome, para ficar de decoração na sua parede.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m6 l3">
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./imgs/products/product-006.png">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Funko Personalizado<i class="material-icons right">more_vert</i></span>
+                        <p class="card-price"><a>R$ 49,99</a><i class="material-icons Medium right toggle-favorite" title="Favoritar">favorite_border</i></p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Funko Personalizado<i class="material-icons right">close</i></span>
+                        <p>Encomende um Funko personalizado com a sua aparência!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="card col m9 s12">
+                  <h5>Produtos relacionados</h5>
+                  <br>
+                  <div class="col s12 m6 l3">
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./imgs/products/product-009.png">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Quadro de Esqueiros Reciclados<i class="material-icons right">more_vert</i></span>
+                        <p class="card-price"><a>R$ 15,45</a><i class="material-icons Medium right toggle-favorite" title="Favoritar">favorite_border</i></p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Quadro de Esqueiros Reciclados<i class="material-icons right">close</i></span>
+                        <p>Quadro feito com a confecção de material reciclado, pelo artista Fulaninhus Santos.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m6 l3">
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./imgs/products/product-010.png">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Combo HQs da DC Comics<i class="material-icons right">more_vert</i></span>
+                        <p class="card-price"><a>R$ 36,22</a><i class="material-icons Medium right toggle-favorite" title="Favoritar">favorite_border</i></p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Combo HQs da DC Comics<i class="material-icons right">close</i></span>
+                        <p>Três revistas em quadrinho da DC Comics em um único combo colecionável.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m6 l3">
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./imgs/products/product-011.png">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Camiseta Incrível Preta<i class="material-icons right">more_vert</i></span>
+                        <p class="card-price"><a>R$ 25,50</a><i class="material-icons Medium right toggle-favorite" title="Favoritar">favorite_border</i></p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Camiseta Incrível Preta<i class="material-icons right">close</i></span>
+                        <p>Camiseta do desenho Os Incríveis, produzida pela artista Maria dos Santos.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m6 l3">
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./imgs/products/product-012.png">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Óculos 8 Bits Branco<i class="material-icons right">more_vert</i></span>
+                        <p class="card-price"><a>R$ 22,13</a><i class="material-icons Medium right toggle-favorite" title="Favoritar">favorite_border</i></p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Óculos 8 Bits Branco<i class="material-icons right">close</i></span>
+                        <p>Óculos 8 bits, produzido em impressora 3D pela artista Ciclanas Silva.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="page-footer blue-grey darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l4 s12">
+              <h5 class="white-text">GeekArt</h5>
+              <p class="grey-text text-lighten-4">A GeekArt é uma plataforma de e-commerce brasileira, com temática Geek, que te permite adquirir ou comercializar produtos personalizados para os geeks do Brasil inteiro!</p>
+              <p>GeekArt, produtos feitos por você e para você.</p>
+            </div>
+            <div class="col l4 s12 center geek-payment-container">
+              <h5 class="white-text">Aceitamos</h5>
+              <div>
+                <div class="row">
+                  <div class="row">
+                    <div class="col l4 s4">
+                      Pix<br>
+                      <img src="imgs/payment/band_pix.png" alt="Pix" title="Pix">
+                    </div>
+                    <div class="col l4 s4">
+                      Boleto<br>
+                      <img src="imgs/payment/band_boleto.png" alt="Boleto" title="Boleto">
+                    </div>
+                    <div class="col l4 s4">
+                      C. Eletrônica<br>
+                      <img src="imgs/payment/band_paypal.png" alt="Carteira Eletrônica" title="Carteira Eletrônica">
+                    </div>
+                  </div>
+                  Crédito
+                  <div class="row">
+                    <img src="imgs/payment/band_visa.png" alt="Visa" title="Visa">
+                    <img src="imgs/payment/band_master.png" alt="Master Card" title="Master Card">
+                    <img src="imgs/payment/band_american.png" alt="American Express" title="American Express">
+                    <img src="imgs/payment/band_diners.png" alt="Diners Club International" title="Diners Club International">
+                    <img src="imgs/payment/band_elo.png" alt="Elo" title="Elo">
+                    <img src="imgs/payment/band_hiper.png" alt="Hipercard" title="Hipercard">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l4 s12">
+              <div class="center">
+                <h5>Site seguro</h5>
+                <p><i class="large material-icons no-select">security</i></p>
+                <p>Segurança em primeiro lugar! Adquira e comercialize de forma segura através de nossa plataforma.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col l3 s3"><a class="white-text" href="#!">Trabalhe conosco</a></div>
+            <div class="col l3 s3"><a class="white-text" href="#!">Termos e condições</a></div>
+            <div class="col l3 s3"><a class="white-text" href="#!">Como cuidamos da sua privacidade</a></div>
+            <div class="col l3 s3"><a class="white-text" href="#!">Contato</a></div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          &copy; 2020-2021 GeekArt - todos os direitos reservados.
+          </div>
+        </div>
+      </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/countdown.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous"></script>
+      <script type="text/javascript" >
+        $(document).ready(function(){
+          $('.dropdown-trigger').dropdown();
+          $('.sidenav').sidenav();
+          $('.toggle-favorite').click((e) => {
+            const icon = $(e.target);
+            if (icon.text() === 'favorite') {
+              icon.html('favorite_border');
+              icon.prop('title', 'Favoritar');
+            } else {
+              icon.html('favorite');
+              icon.prop('title', 'Desfavoritar');
+            }
+          });
+          $('.carousel').carousel();
+          $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+          });
+          $('.cep').mask('00000-000', {reverse: false});
+          $('.tabs').tabs();
+          $('select').formSelect();
+          $('.modal').modal();
+        });
+        
+      </script>
+    </body>
